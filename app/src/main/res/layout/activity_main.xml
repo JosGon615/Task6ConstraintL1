@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="409dp"
+        android:layout_height="730dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageButton6"
+            android:layout_width="207dp"
+            android:layout_height="213dp"
+            android:padding="0dp"
+            android:scaleType="centerCrop"
+            app:shapeAppearanceOverlay="@style/Circulo"
+            app:srcCompat="@color/teal_200"
+            tools:ignore="MissingClass,ImageContrastCheck"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="373dp"
+            android:layout_height="35dp"
+            android:text="@string/nombre"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="245dp" />
+
+        <Button
+            android:layout_width="374dp"
+            android:layout_height="49dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="@string/edit_profile"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            tools:layout_editor_absoluteX="15dp"
+            tools:layout_editor_absoluteY="287dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/followers"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="367dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/following"
+            tools:layout_editor_absoluteX="175dp"
+            tools:layout_editor_absoluteY="367dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/estrellita"
+            tools:layout_editor_absoluteX="308dp"
+            tools:layout_editor_absoluteY="367dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
